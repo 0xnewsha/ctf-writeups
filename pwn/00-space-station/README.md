@@ -6,9 +6,6 @@ This challenge combines a format-string vulnerability with a stack-based buffer 
 
 The format string is used to leak the stack canary and a runtime address from the PIE executable. These values allow the exploit to preserve the canary, calculate the binary base address, and redirect execution to the `win()` function.
 
-> The vulnerable source code and binary were provided during the Offensive Security laboratory.  
-> The analysis, write-up, and exploit script are my own work.
-
 ## Security protections
 
 - Full RELRO
@@ -65,5 +62,3 @@ ret = elf.address + RET_OFF
 - `main.c` — vulnerable challenge source provided during the laboratory
 - `space_station` — original challenge binary
 - `solve.py` — exploit script developed by me
-
-This write-up is published for educational and portfolio purposes. The flag and active challenge endpoint have been removed.
