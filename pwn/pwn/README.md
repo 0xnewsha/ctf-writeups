@@ -1,7 +1,6 @@
 # Pwn / Binary Exploitation
 
-Selected binary-exploitation challenges completed during offensive-security laboratory courses.
-
+Selected binary-exploitation challenges completed during offensive-security laboratory courses in my Master’s program.
 ## Challenges
 
 Write-ups will be organized from introductory stack exploitation to advanced heap exploitation.
